@@ -77,7 +77,6 @@ export default [
                 mod.code = mod.code.replace(/\.\/easing/g, `https://unpkg.com/svelte@${pkg.version}/easing/index.mjs`)
                 mod.code = mod.code.replace(/\.\/internal/g, `https://unpkg.com/svelte@${pkg.version}/internal/index.mjs`)
                 mod.code = mod.code.replace(/\.\/store/g, `https://unpkg.com/svelte@${pkg.version}/store/index.mjs`)
-                console.log(mod.code)
               }
             }
 
