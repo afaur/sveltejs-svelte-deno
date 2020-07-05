@@ -75,9 +75,9 @@ export default [
             } else {
               const mod = bundle['index.mjs']
               if (mod) {
-                mod.code = mod.code.replace(/\.\/easing/g, `https://rawcdn.githack.com/afaur/sveltejs-svelte-deno/c43aefd723352fd7406dd12546a744d3a7d99f3a/easing/index.mjs`)
-                mod.code = mod.code.replace(/\.\/internal/g, `https://rawcdn.githack.com/afaur/sveltejs-svelte-deno/c43aefd723352fd7406dd12546a744d3a7d99f3a/internal/index.mjs`)
-                mod.code = mod.code.replace(/\.\/store/g, `https://rawcdn.githack.com/afaur/sveltejs-svelte-deno/c43aefd723352fd7406dd12546a744d3a7d99f3a/store/index.mjs`)
+                mod.code = mod.code.replace(/\.\/easing/g, `https://rawcdn.githack.com/afaur/sveltejs-svelte-deno/e0f49cbf2275501439c1967a054eb3ec49e008bd/easing/index.mjs`)
+                mod.code = mod.code.replace(/\.\/internal/g, `https://rawcdn.githack.com/afaur/sveltejs-svelte-deno/e0f49cbf2275501439c1967a054eb3ec49e008bd/internal/index.mjs`)
+                mod.code = mod.code.replace(/\.\/store/g, `https://rawcdn.githack.com/afaur/sveltejs-svelte-deno/e0f49cbf2275501439c1967a054eb3ec49e008bd/store/index.mjs`)
                 fs.writeFileSync(path.resolve(dir, mod.fileName), mod.code)
               }
             }
