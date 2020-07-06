@@ -5,15 +5,7 @@
 node_modules
 *.map
 /src/compiler/compile/internal_exports.ts
-/compiler.d.ts
-/compiler.*js
 /index.*js
-/internal
-/store
-/easing
-/motion
-/transition
-/animate
 /scratch/
 /coverage/
 /coverage.lcov
